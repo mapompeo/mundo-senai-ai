@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.box p {
+    padding: 0px 20px;
+}
+
+.video {
+    max-width: 700px;
+    width: 696.6666666666666px;
+    height: 399.76363636363635px;
+    border-radius: 5px;
+}
