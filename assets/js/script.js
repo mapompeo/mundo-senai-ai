@@ -1,7 +1,7 @@
 window.onscroll = function() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        header.classList.add("header");
+        document.getElementById("header").style.background = "rgba(51, 51, 51, 0.8)"
     } else {
-        header.classList.remove("header");
+        document.getElementById("header").style.background = "rgba(51, 51, 51, 1)"
     }
 }
